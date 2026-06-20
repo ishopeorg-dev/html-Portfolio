@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio Template</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,sans-serif;background:#0a0a0a;color:white}
+nav{display:flex;justify-content:space-between;padding:20px 10%;background:#111}
+nav a{color:white;text-decoration:none;margin-left:15px}
+.hero{height:90vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}
+.hero h1{font-size:60px}
+.btn{padding:12px 24px;background:white;color:black;text-decoration:none;border-radius:25px;margin-top:20px}
+.section{padding:80px 10%}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+.card{background:#161616;padding:20px;border-radius:12px}
+footer{text-align:center;padding:30px;background:#111}
+</style>
+</head>
+<body>
+<nav>
+<div></div>
+<div>
+<a href="#about">About</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+
+<section class="hero">
+<h1>Devank Singh</h1>
+<p>Developer • Creator • Student</p>
+<a class="btn" href="#projects">View Projects</a>
+</section>
+
+<section id="about" class="section">
+<h2>About Me</h2>
+<p>I am a passionate developer with a love for creating innovative solutions. <br /></p>
+
+<p>I am a Full stack developer. I like to make coding projects, do some tasks, and I like to program Arduinos,  <br />
+     ESP, and many more computing chips.<br />
+     My hobby is to make new projects that can help someone in need, like, for example,<br />
+     my simple house Weather station and safety ID card for students In schools that are in danger </p>
+
+<p>My goal is to become a professional developer and contribute to the tech community.</p>
+</section>
+
+<section id="projects" class="section">
+<h2>Projects</h2>
+<div class="cards">
+<div class="card"><h3>ESP 32 DEV KIT C Based Safety ID Card Project  </h3><p>Whenever a student is in danger, he can press a button to alert the entire school.<br />
+                                                                            It will update on a server that the entire school's devices are connected to. </p></div>
+<div class="card"><h3>ESP 32 DEV KIT C Weather Station  </h3><p>The ESP 32 DEV KIT C Weather Station is designed to provide accurate weather data for various applications.</p></div>
+<div class="card"><h3>Project 3</h3><p>Description</p></div>
+</div>
+</section>
+
+<section id="contact" class="section">
+<h2>Contact</h2>
+<p>Email: is.hope.org@gmail.com</p>
+
+<h1>Social Media</h1>
+
+<p>Follow me on social media for updates on my latest projects and tech news!</p>
+
+<ul>
+        <li><a href="https://www.youtube.com/@itshope0101" target="_blank">YouTube</a></li>
+
+
+</ul>
+</section>
+
+<footer><p>&copy; 2026 Devank Singh. All rights reserved.</p></footer>
+</body>
+</html>
